@@ -6,16 +6,16 @@ settings:
 
 dependencies:
   browserify-optional:
-    specifier: ^1.0.0
+    specifier: ^1.0.1
     version: 1.0.1
   classnames:
-    specifier: ^2.2.6
+    specifier: ^2.5.1
     version: 2.5.1
   eve:
-    specifier: ~0.5.1
+    specifier: ~0.5.4
     version: 0.5.4
   prop-types:
-    specifier: ^15.7.2
+    specifier: ^15.8.1
     version: 15.8.1
   snapsvg-cjs:
     specifier: 0.0.6
@@ -23,7 +23,7 @@ dependencies:
 
 devDependencies:
   acorn:
-    specifier: ^6.3.0
+    specifier: ^6.4.2
     version: 6.4.2
   ajv:
     specifier: 5.0.0
@@ -41,13 +41,13 @@ devDependencies:
     specifier: ^1.7.0
     version: 1.7.0
   babel-preset-react:
-    specifier: ^6.3.13
+    specifier: ^6.24.1
     version: 6.24.1
   babel-register:
-    specifier: ^6.3.13
+    specifier: ^6.26.0
     version: 6.26.0
   chai:
-    specifier: ^4.2.0
+    specifier: ^4.4.1
     version: 4.4.1
   cross-env:
     specifier: ^5.2.1
@@ -56,19 +56,19 @@ devDependencies:
     specifier: ^4.19.1
     version: 4.19.1
   eslint-plugin-react:
-    specifier: ^7.16.0
+    specifier: ^7.33.2
     version: 7.33.2(eslint@4.19.1)
   eslint-plugin-react-hooks:
-    specifier: ^4.2.0
+    specifier: ^4.6.0
     version: 4.6.0(eslint@4.19.1)
   gulp:
     specifier: ^3.9.1
     version: 3.9.1
   gulp-git:
-    specifier: ^2.9.0
+    specifier: ^2.10.1
     version: 2.10.1
   jsdom:
-    specifier: ^16.5.0
+    specifier: ^16.7.0
     version: 16.7.0
   jsdom-global:
     specifier: ^3.0.2
@@ -86,19 +86,19 @@ devDependencies:
     specifier: ^1.19.1
     version: 1.19.1
   react:
-    specifier: ^17.0.1
+    specifier: ^17.0.2
     version: 17.0.2
   react-component-gulp-tasks:
     specifier: github:negomi/react-component-gulp-tasks
     version: github.com/negomi/react-component-gulp-tasks/a8e4fa24d13799c4293d8c2df2150100a113d533(gulp@3.9.1)
   react-dom:
-    specifier: ^17.0.1
+    specifier: ^17.0.2
     version: 17.0.2(react@17.0.2)
   react-test-renderer:
-    specifier: ^17.0.1
+    specifier: ^17.0.2
     version: 17.0.2(react@17.0.2)
   request:
-    specifier: ^2.88.0
+    specifier: ^2.88.2
     version: 2.88.2
   sinon:
     specifier: ^4.5.0
@@ -4128,7 +4128,7 @@ packages:
     dependencies:
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 2.0.10
+      minimatch: 3.1.2
       once: 1.4.0
       path-is-absolute: 1.0.1
     dev: true
