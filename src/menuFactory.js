@@ -299,7 +299,7 @@ export default styles => {
     function onKeyDownClosed(e) {
       e = e || window.event;
       // Key downs came from menu button
-      if (e.target === document.getElementById('react-burger-menu-btn')) {
+      if (e.target === document.getElementById('next-burger-menu-btn')) {
         switch (e.key) {
           case ARROW_DOWN:
           case SPACE:
