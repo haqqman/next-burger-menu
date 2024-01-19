@@ -161,7 +161,7 @@ class Demo extends Component {
         {this.getMenu()}
         <main id="page-wrap">
           <h1>
-            <a href="https://github.com/negomi/react-burger-menu">
+            <a href="https://github.com/haqqman/next-burger-menu">
               react-burger-menu
             </a>
           </h1>
