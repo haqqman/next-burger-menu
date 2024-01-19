@@ -22,7 +22,7 @@ export function focusOnCrossButton() {
 }
 
 export function focusOnMenuButton() {
-  const menuButton = document.getElementById('react-burger-menu-btn');
+  const menuButton = document.getElementById('next-burger-menu-btn');
   if (menuButton) {
     menuButton.focus();
   }

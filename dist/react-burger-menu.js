@@ -1509,7 +1509,7 @@ var BurgerIcon = function (_Component) {
                         style: _extends({ zIndex: 1000 }, this.props.styles.bmBurgerButton)
                     }, _react2['default'].createElement('button', {
                         type: 'button',
-                        id: 'react-burger-menu-btn',
+                        id: 'next-burger-menu-btn',
                         onClick: this.props.onClick,
                         onMouseOver: function () {
                             _this.setState({ hover: true });
@@ -1816,7 +1816,7 @@ function focusOnCrossButton() {
     }
 }
 function focusOnMenuButton() {
-    var menuButton = document.getElementById('react-burger-menu-btn');
+    var menuButton = document.getElementById('next-burger-menu-btn');
     if (menuButton) {
         menuButton.focus();
     }
@@ -2143,7 +2143,7 @@ exports['default'] = function (styles) {
         }
         function onKeyDownClosed(e) {
             e = e || window.event;
-            if (e.target === document.getElementById('react-burger-menu-btn')) {
+            if (e.target === document.getElementById('next-burger-menu-btn')) {
                 switch (e.key) {
                 case ARROW_DOWN:
                 case SPACE:

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import BurgerMenu from 'react-burger-menu';
+import BurgerMenu from 'next-burger-menu';
 import classNames from 'classnames';
 
 class MenuWrap extends Component {
@@ -161,8 +161,8 @@ class Demo extends Component {
         {this.getMenu()}
         <main id="page-wrap">
           <h1>
-            <a href="https://github.com/negomi/react-burger-menu">
-              react-burger-menu
+            <a href="https://github.com/haqqman/next-burger-menu">
+              next-burger-menu
             </a>
           </h1>
           <a

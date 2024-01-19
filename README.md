@@ -168,7 +168,7 @@ You can control whether the sidebar is open or closed with the `isOpen` prop. Th
 <Menu isOpen={ false } />
 ```
 
-You can see a more detailed example of how to use `isOpen` [here](https://github.com/negomi/react-burger-menu/wiki/FAQ#i-want-to-control-the-open-state-programmatically-but-i-dont-understand-how-to-use-the-isopen-prop).
+You can see a more detailed example of how to use `isOpen` [here](https://github.com/haqqman/next-burger-menu/wiki/FAQ#i-want-to-control-the-open-state-programmatically-but-i-dont-understand-how-to-use-the-isopen-prop).
 
 *Note: If you want to render the menu open initially, you will need to set this property in your parent component's `componentDidMount()` function.*
 
@@ -310,7 +310,7 @@ And to the `html` and `body` elements (applied when the menu is open):
 <Menu bodyClassName={ "my-class" } />
 ```
 
-*Note: Passing these props will prevent the menu from applying styles to the `html` or `body` elements automatically. See [here](https://github.com/negomi/react-burger-menu/wiki/FAQ#why-is-overflow-x-hidden-being-set-on-the-html-and-body-elements) for more explanation.*
+*Note: Passing these props will prevent the menu from applying styles to the `html` or `body` elements automatically. See [here](https://github.com/haqqman/next-burger-menu/wiki/FAQ#why-is-overflow-x-hidden-being-set-on-the-html-and-body-elements) for more explanation.*
 
 #### Focusing the first menu item
 
