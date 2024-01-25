@@ -34,7 +34,41 @@ export default styles => {
     return ref.current;
   }
 
-  const Menu = props => {
+  const Menu = ({
+    customBurgerIcon,
+    customCrossIcon,
+    customOnKeyDown,
+    disableOverlayClick,
+    isOpen,
+    onClose,
+    onOpen,
+    right,
+    bodyClassName = '',
+    burgerBarClassName = '',
+    burgerButtonClassName = '',
+    className = '',
+    crossButtonClassName = '',
+    crossClassName = '',
+    disableAutoFocus = false,
+    disableCloseOnEsc = false,
+    htmlClassName = '',
+    id = '',
+    itemClassName = '',
+    itemListClassName = '',
+    menuClassName = '',
+    morphShapeClassName = '',
+    noOverlay = false,
+    noTransition = false,
+    onStateChange = () => {},
+    outerContainerId = '',
+    overlayClassName = '',
+    pageWrapId = '',
+    styles = {},
+    width = 300,
+    onIconHoverChange = () => {},
+    itemListElement = 'nav',
+    ...props
+  }) => {
     const [isOpen, setIsOpen] = React.useState(false);
     const timeoutId = React.useRef();
     const toggleOptions = React.useRef({});
@@ -203,7 +237,7 @@ export default styles => {
       const wrapper = document.getElementById(id);
 
       if (!wrapper) {
-        console.error("Element with ID '" + id + "' not found");
+        console.error('Element with ID "" + id + "" not found');
         return;
       }
 
@@ -461,33 +495,6 @@ export default styles => {
     right: PropTypes.bool,
     styles: PropTypes.object,
     width: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
-  };
-
-  Menu.defaultProps = {
-    bodyClassName: '',
-    burgerBarClassName: '',
-    burgerButtonClassName: '',
-    className: '',
-    crossButtonClassName: '',
-    crossClassName: '',
-    disableAutoFocus: false,
-    disableCloseOnEsc: false,
-    htmlClassName: '',
-    id: '',
-    itemClassName: '',
-    itemListClassName: '',
-    menuClassName: '',
-    morphShapeClassName: '',
-    noOverlay: false,
-    noTransition: false,
-    onStateChange: () => {},
-    outerContainerId: '',
-    overlayClassName: '',
-    pageWrapId: '',
-    styles: {},
-    width: 300,
-    onIconHoverChange: () => {},
-    itemListElement: 'nav'
   };
 
   return Menu;
